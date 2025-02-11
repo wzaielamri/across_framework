@@ -55,12 +55,10 @@ To train and execute the BioTac to Digit pipeline follow these steps for install
 ## Citation
 
 ```
-@InProceedings{zai2025across,
-author="Zai El Amri, Wadhah
-and Malte Kuhlmann
-and Nicolás Navarro-Guerrero,
-title="ACROSS: A Deformation-Based Cross-Modal Representation for Robotic Tactile Perception.",
-booktitle="IEEE International Conference on Robotics and Automation (ICRA)",
-year="2025",
+@InProceedings{ZaiElAmri2025across,
+  author = {Zai El Amri, Wadhah and Kuhlmann, Malte and {Navarro-Guerrero}, Nicol{\'a}s},
+  title = {{{ACROSS}}: {{A Deformation-Based Cross-Modal Representation}} for {{Robotic Tactile Perception}}},
+  booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  year={2025},
 }
 ```
