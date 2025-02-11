@@ -1,0 +1,10 @@
+train_data: [
+  "../../Data/datasets/BioTac_Pure_Exp_Dataset/nvidia_train_data.hdf5",
+  "../../Data/datasets/biotac_single_response/ruppel_flat_in_nvidia_reduced.hdf5",
+  "../../Data/datasets/biotac_single_response/ruppel_stick_in_nvidia_reduced.hdf5"
+]
+
+test_data: "../../Data/datasets/BioTac_Pure_Exp_Dataset/nvidia_test_data.hdf5"
+indenter_filter: null
+
+data_postfix: "all_data"

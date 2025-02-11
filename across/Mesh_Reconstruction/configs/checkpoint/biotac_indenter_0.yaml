@@ -1,0 +1,4 @@
+sensor_name: "biotac"
+mesh_path: "../../Data/meshes/biotac/int_ext_skin/int_ext_skin_combined_ftw.tet"
+network_name: "fem_VAE"
+path: "../../Data/checkpoints/biotac_mesh_reconstruction/biotac_batch_size_128_kl_weight_0.005_cheb_order_6:z_128_lr_0.001_L_1_seed_91612_fem_VAE_single_indenter/epoch=497-step=16932.ckpt"

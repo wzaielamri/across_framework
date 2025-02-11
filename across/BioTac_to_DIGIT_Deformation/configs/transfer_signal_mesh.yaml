@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+  - checkpoints: all_data
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+experiment:
+  digit_mesh_path: "../../Data/meshes/digit/gel/digit_gel_hq_shifted.tet"
+  biotac_mesh_path: "../../Data/meshes/biotac/int_ext_skin/int_ext_skin_combined_ftw.tet"
+
+  dataset_path: "../dataset"
+  dataset_length: -1
+
+  test_ds_path: "../../BioTac_Signal_to_Deformation/dataset/test_ds/test_ds.pt"

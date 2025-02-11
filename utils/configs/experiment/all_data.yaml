@@ -1,0 +1,24 @@
+signal_checkpoint: "../across/Data/checkpoints/biotac_signal_reconstruction/all_data/epoch=323-step=248832.ckpt"
+signal_train_data: [
+  "../across/Data/datasets/BioTac_Pure_Exp_Dataset/nvidia_train_data.hdf5",
+  "../across/Data/datasets/biotac_single_contact_response/ruppel_flat_in_nvidia_reduced.hdf5",
+  "../across/Data/datasets/biotac_single_contact_response/ruppel_stick_in_nvidia_reduced.hdf5"
+]
+signal_test_data: "../across/Data/datasets/BioTac_Pure_Exp_Dataset/nvidia_test_data.hdf5"
+indenter_filter: null
+
+signal_value_norms: "../across/Data/datasets/biotac_signal_norms/value_norms_all_data.pt"
+
+
+signal_to_deformation_checkpoint: "../across/Data/checkpoints/signal_to_mesh_projection/all_data/lr_0.0005_seed_-1/epoch=381-step=2292.ckpt"
+
+biotac_deformation_checkpoint: "../across/Data/checkpoints/biotac_mesh_reconstruction/biotac_batch_size_128_kl_weight_0.005_cheb_order_6_z_128_lr_0.001_L_1_seed_76979_fem_VAE_allData/epoch=299-step=288300.ckpt"
+digit_deformation_checkpoint: "../across/Data/checkpoints/digit_mesh_reconstruction/digit_batch_size_128_kl_weight_0.005_cheb_order_6_z_128_lr_0.001_L_1_seed_77219_fem_VAE_allData/epoch=298-step=287339.ckpt"
+
+biotact_to_digit_checkpoint: "../across/Data/checkpoints/mesh_to_mesh_projection/batch_size_1024_lr_0.001_seed_76979_77219_allData_102913/epoch=366-step=44407.ckpt"
+
+signal_to_deformation_test_set_decoded: "../across/Data/datasets/test_ds/test_ds_all_data_0.005_depth_filter.pt"
+
+signal_to_deformation_dataset: "../across/Data/datasets/value_def_dataset/accepted_dataset_all_data_depth_filter_surface_adjusted.pt"
+
+folder_name: "../across/Data/pipeline_test/test_obj_all_data"

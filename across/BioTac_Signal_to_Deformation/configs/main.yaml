@@ -1,0 +1,18 @@
+defaults:
+  - _self_
+  - model: base
+  - dataset: all_data
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+experiment:
+  epochs: 5000
+  use_mu: False
+  num_workers: 4
+  seed: -1
+  name: "biotac_to_mesh_nvidia"
+  checkpoint_path: "../../Data/checkpoints/signal_to_mesh_projection"
+  decoder_evaluation: True
+  device: "cuda"

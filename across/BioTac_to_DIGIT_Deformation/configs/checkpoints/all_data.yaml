@@ -1,0 +1,6 @@
+#biotac_fem_path: "../../Data/checkpoints/biotac_mesh_reconstruction/biotac_batch_size_128_kl_weight_0.005_cheb_order_6:z_128_lr_0.001_L_1_seed_76979_fem_VAE_allData/epoch=299-step=288300.ckpt"
+#digit_fem_path: "../../Data/checkpoints/digit_mesh_reconstruction/digit_batch_size_128_kl_weight_0.005_cheb_order_6:z_128_lr_0.001_L_1_seed_77219_fem_VAE_allData/epoch=298-step=287339.ckpt"
+
+projection_network: "../../Data/checkpoints/mesh_to_mesh_projection/batch_size_128:lr_0.0001_seed_76979_77219_allData_SMAC/epoch=427-step=51788.ckpt"
+
+#network_name: "fem_VAE"

@@ -1,0 +1,4 @@
+dataset_path: "../../Data/datasets"
+dataset_length: -1
+name_postfix: "_allData"
+envs_to_use: -1

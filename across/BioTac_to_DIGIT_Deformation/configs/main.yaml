@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - model: base
+  - dataset: all_data
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+experiment:
+  epochs: 1000
+  seed: -1
+  devices: ["cuda:0"]
+  num_workers: 4
+  checkpoint_storage: "../../Data/checkpoints/mesh_to_mesh_projection/"

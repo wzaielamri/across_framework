@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - sensor: biotac
+  - model: base
+  - dataset: all_data
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+experiment:
+  devices: ["cuda:0"]
+  seed: -1
+  num_workers: -1
+  epochs: 300

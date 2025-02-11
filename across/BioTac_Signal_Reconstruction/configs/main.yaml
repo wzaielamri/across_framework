@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+  - model: base
+  - dataset: all_data
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+experiment:
+  epochs: 1000
+  seed: 0
+  store_norm: True
+  norm_path: "../../Data/datasets/biotac_signal_norms/"
+  project_name: "biotac_vae_shuffled_nvidia"
+  checkpoint_path: "../../Data/checkpoints/biotac_signal_reconstruction"

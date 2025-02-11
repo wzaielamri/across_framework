@@ -1,0 +1,9 @@
+kl_weight: 0.005
+L: 1
+z: 128
+lr: 1e-3
+cheby_order: 6
+weight_decay: 0
+lr_decay: 0.99
+batch_size: 128
+network: "fem_VAE"

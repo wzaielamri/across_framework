@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - experiment: all_data
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+general:
+  digit_mesh_path: "../across/Data/meshes/digit/gel/digit_gel_hq_shifted.tet"
+  biotac_mesh_path: "../across/Data/meshes/biotac/int_ext_skin/int_ext_skin_combined_ftw.tet"
+  dataset_path: "../across/Data/datasets"
+  save_mesh: True
+  device: "cuda"
+  deformation_region_threshhold: 0.01

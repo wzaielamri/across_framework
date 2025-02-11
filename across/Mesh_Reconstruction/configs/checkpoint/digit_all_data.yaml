@@ -1,0 +1,4 @@
+sensor_name: "digit"
+mesh_path: "../../Data/meshes/digit/gel/digit_gel_hq_shifted.tet"
+network_name: "fem_VAE"
+path: "../../Data/checkpoints/digit_mesh_reconstruction/digit_batch_size_128_kl_weight_0.005_cheb_order_6:z_128_lr_0.001_L_1_seed_77219_fem_VAE_allData/epoch=298-step=287339.ckpt"

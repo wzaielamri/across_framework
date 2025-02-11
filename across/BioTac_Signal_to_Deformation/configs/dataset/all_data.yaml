@@ -1,0 +1,6 @@
+deformation_checkpoint: "../../Data/checkpoints/biotac_mesh_reconstruction/biotac_batch_size_128_kl_weight_0.005_cheb_order_6:z_128_lr_0.001_L_1_seed_76979_fem_VAE_allData/epoch=299-step=288300.ckpt"
+deformation_norm: "../../Data/datasets/processed/biotac_155605_dist_1_20_env_0_1_2_3_4_5_6_7_8_norm.pt"
+
+dataset_file: "../../Data/datasets/value_def_dataset/accepted_dataset_all_data_depth_filter_surface_adjusted.pt"
+
+data_postfix: "all_data"

@@ -1,0 +1,7 @@
+seed_digit: 77219
+seed_biotac: 76979
+file_postfix: "allData"
+fem_checkpoint: "../../Data/checkpoints/digit_mesh_reconstruction/digit_batch_size_128_kl_weight_0.005_cheb_order_6:z_128_lr_0.001_L_1_seed_77219_fem_VAE_allData/epoch=298-step=287339.ckpt"
+norm_path: "../../Data/datasets/processed/digit_155605_dist_1_20_env_0_1_2_3_4_5_6_7_8_norm.pt"
+latent_space_path: "../../Data/datasets/latent_space/"
+use_mu: False

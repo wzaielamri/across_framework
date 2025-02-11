@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - checkpoint: biotac_all_data
+  - dataset: all_data
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+run:
+  output_path: "../../Data/datasets/latent_space/"
+  devices: [ "cuda:0" ]
+  num_workers: 4
+  batch_size: 1
+  L: 1

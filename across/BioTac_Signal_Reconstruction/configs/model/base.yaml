@@ -1,0 +1,5 @@
+kl_weight: 0.005
+lr: 1e-4
+batch_size: 256
+L: 1
+kl_annealing_goal_epoch: 0

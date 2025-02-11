@@ -1,0 +1,4 @@
+dataset_path: "../../Data/datasets"
+dataset_length: -1
+name_postfix: "_single_indenter"
+envs_to_use: 0

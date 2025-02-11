@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - renderer: config_renderer
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d-%H-%M-%S}
+
+experiment:
+  name: ''
+  save_dir: '../../Data/pipeline_test/tactile_images'
+  gui: False
+  obj_path: "../../Data/pipeline_test/test_obj_all_data"
+  

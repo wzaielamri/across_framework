@@ -1,0 +1,10 @@
+config_path : "../configs/digit_config/pyrenderer_digit_config.yml"
+surface_vertices_path: "../configs/digit_config/vertices_surface_indices.npy"
+calib_path:  "../configs/digit_config/polycalib.npz"
+dataPack:  "../configs/digit_config/dataPack.npz"
+real_bg: "../configs/digit_config/real_bg.npy"
+h: 640
+w: 480
+numBins: 125
+pixmm: 0.0266
+kernel_size : [401, 201, 101, 51, 21, 11, 5]  #, 
